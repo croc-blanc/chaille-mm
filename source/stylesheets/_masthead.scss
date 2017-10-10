@@ -1,0 +1,45 @@
+// Styling for the masthead
+
+
+.column-profil {
+  // display: block;
+  padding-top:120px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+
+.column-text {
+  // display: block;
+  position: absolute;
+  height: 450px;
+  width: 350px;
+  border-radius: 5px;
+  left:55%;
+  right: 30%;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  text-align: center;
+
+
+
+  color: white;
+  background: $theme-success;
+
+  .name {
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+
+      text-transform: uppercase;
+    }
+    .skills {
+      font-size: 30px;
+      font-weight: 300;
+    }
+  }
+

@@ -1,14 +1,10 @@
-// Graphical variables
-@import "config/fonts";
-@import "config/colors";
-@import "config/bootstrap_variables";
-
-// External libraries
-@import "bootstrap-sprockets";
+@import "variables.scss";
+@import "mixins.scss";
+@import "global.scss";
+@import "navbar.scss";
+@import "masthead.scss";
+@import "portfolio.scss";
+@import "contact.scss";
+@import "bootstrap-overrides.scss";
+@import "profil.scss";
 @import "bootstrap";
-@import "font-awesome";
-
-// Your CSS partials
-@import "layouts/index";
-@import "components/index";
-@import "pages/index";

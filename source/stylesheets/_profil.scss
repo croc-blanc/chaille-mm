@@ -1,0 +1,39 @@
+.boxed {
+  width: 500px;
+  height: 500px;
+  overflow: hidden;
+  position:relative;
+  -webkit-clip-path: inset(2% 5% 2% 5% round 0 2% 0 2%);
+  .item {
+
+    width:100%;
+    height:100%;
+    position:absolute;
+    left:0;
+    top:0;
+    background-image: url(../images/chaille.png);
+    background-size:cover;
+    background-position:center;
+    mix-blend-mode: screen;
+    background-blend-mode: darken;
+    transition: transform 0.9s;
+
+    &--r {
+      background-color:red;
+      transform:translate(5px, -5px);
+    }
+    &--g {
+      background-color:green;
+      transform:translate(-5px, -5px);
+    }
+    &--b {
+      background-color:blue;
+      transform:translate(0px, 9px);
+    }
+  }
+
+  &:hover .item{
+    transform:translate(0px, 0px) !important;
+  }
+}
+
