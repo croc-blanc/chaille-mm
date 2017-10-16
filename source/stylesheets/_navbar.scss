@@ -1,16 +1,19 @@
 // Styling for the navbar
 #mainNav {
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 700;
-  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+
+  // font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  // text-transform: uppercase;
   border: none;
-  background: $theme-primary;
+  // background: $theme-primary;
+  background: white;
   a:focus {
     outline: none;
   }
   .navbar-brand {
     font-size: 1.1rem;
-    color: white;
+    color: $theme-primary;
     &.active,
     &:active,
     &:focus,
@@ -22,7 +25,7 @@
     letter-spacing: 1px;
     li.nav-item {
       a.nav-link {
-        color: white;
+        color: $theme-primary;
         &:hover {
           color: $theme-success;
           outline: none;
@@ -38,23 +41,19 @@
     font-size: 14px;
     padding: 11px;
     text-transform: uppercase;
-    color: white;
+    color: $theme-primary;
     border-color: white;
     &:focus,
     &:hover {
-      color: white;
+      color: $theme-primary;
       border-color: $theme-success;
-      background-color: $theme-success;
+      // background-color: $theme-success;
     }
   }
 }
 @media(min-width:992px) {
   #mainNav {
-    padding-top: 25px;
-    padding-bottom: 25px;
-    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
-    -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
-    transition: padding-top 0.3s, padding-bottom 0.3s;
+
     .navbar-brand {
       font-size: 2em;
       -webkit-transition: all 0.3s;

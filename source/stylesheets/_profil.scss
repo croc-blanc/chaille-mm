@@ -1,9 +1,9 @@
 .boxed {
-  width: 500px;
-  height: 500px;
+  width: 600px;
+  height: 600px;
   overflow: hidden;
   position:relative;
-  -webkit-clip-path: inset(2% 5% 2% 5% round 0 2% 0 2%);
+  -webkit-clip-path: inset(8% 3% 21% 3% round 2% 2% 2% 2%);
   .item {
 
     width:100%;
