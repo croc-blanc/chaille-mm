@@ -23,7 +23,7 @@
 
 .btn-success {
   font-weight: 700;
-  @include button-variant(white, $theme-success, $theme-success);
+  @include button-variant(white, $theme-primary, $theme-primary);
 }
 
 .btn-social {

@@ -3,36 +3,11 @@ title: Le Wagon - Middleman
 ---
 
 
-<!-- Header -->
-
-<div class="container">
-<!--   <div class="row"> -->
-    <!-- <div class="col-xs-12 col-sm-6"> -->
-      <div class="column-profil">
-        <div class="boxed">
-          <div class="item"></div>
-          <div class="item item--r"></div>
-          <div class="item item--g"></div>
-          <div class="item item--b"></div>
-        </div>
-        <div class="column-text">
-          <span class="name"> Chaille </span>
-          <hr class="star-light">
-          <div class="skills">Architecte</div>
-          <div class="skills">Designer</div>
-          <div class="skills">Scénographe</div>
-        </div>
-      </div>
-    </div>
-<!--   </div>
-</div> -->
-
-
 <!-- Portfolio Grid Section -->
 <section id="portfolio">
   <div class="container">
-    <h2 class="text-center">Portfolio</h2>
-    <hr class="star-primary">
+    <h2 class="text-center stitle">Works</h2>
+    <div class="ligne"></div>
     <div class="row">
       <div class="col-sm-4 portfolio-item">
         <a class="portfolio-link" href="#portfolioModal1" data-toggle="modal">
@@ -101,30 +76,40 @@ title: Le Wagon - Middleman
 <!-- About Section -->
 <section class="success" id="about">
   <div class="container">
-    <h2 class="text-center">About</h2>
-    <hr class="star-light">
+    <h2 class="text-center stitle">About</h2>
+    <div class="ligne"></div>
     <div class="row">
-      <div class="col-lg-4 ml-auto">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque viverra venenatis magna, sit amet mattis dolor accumsan venenatis. Aliquam euismod est eros, nec ultricies lacus tincidunt vitae. Cras tempus enim sed interdum convallis. Nunc ligula dolor, malesuada in ornare ut, tincidunt quis quam. Integer lacus orci, commodo id tincidunt at, tempor vitae felis. Vestibulum eu imperdiet purus. Nulla facilisi. Nullam ornare quis orci sed consectetur. Nulla laoreet tincidunt nunc eget laoreet. Donec id ipsum nec magna semper vulputate in quis orci. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+      <div class="col-lg-7 col-md-6 col-sm-6 ml-auto">
+        <div class="card1">
+          <div class="card-profil">
+            <div class="item"></div>
+            <div class="item item--r"></div>
+            <div class="item item--g"></div>
+            <div class="item item--b"></div>
+          </div>
+          <div class="card-text">
+            <span class="name"> Chaille </span>
+            <hr class="star-light">
+            <div class="skills">Architecte</div>
+            <div class="skills">Designer</div>
+            <div class="skills">Scénographe</div>
+          </div>
+        </div>
+
       </div>
-      <div class="col-lg-4 mr-auto">
+      <div class="col-lg-5 col-md-6 col-sm-6 mr-auto">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque viverra venenatis magna, sit amet mattis dolor accumsan venenatis. Aliquam euismod est eros, nec ultricies lacus tincidunt vitae. Cras tempus enim sed interdum convallis. Nunc ligula dolor, malesuada in ornare ut, tincidunt quis quam. Integer lacus orci, commodo id tincidunt at, tempor vitae felis. Vestibulum eu imperdiet purus. Nulla facilisi. Nullam ornare quis orci sed consectetur. Nulla laoreet tincidunt nunc eget laoreet. Donec id ipsum nec magna semper vulputate in quis orci. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-      </div>
-      <div class="col-lg-8 mx-auto text-center">
-        <a href="#" class="btn btn-lg btn-outline">
-          <i class="fa fa-download"></i>
-          Download Theme
-        </a>
       </div>
     </div>
   </div>
+</div>
 </section>
 
 <!-- Contact Section -->
 <section id="contact">
   <div class="container">
-    <h2 class="text-center">Contact Me</h2>
-    <hr class="star-primary">
+    <h2 class="text-center stitle">Contact</h2>
+    <hr class="ligne">
     <div class="row">
       <div class="col-lg-8 mx-auto">
         <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
@@ -514,6 +499,6 @@ title: Le Wagon - Middleman
                   <script src="javascripts/contact_me.js"></script>
 
                   <!-- Custom scripts for this template -->
-                  <script src="javascripts/freelancer.min.js"></script>
+                  <script src="javascripts/freelancer.js"></script>
 
 

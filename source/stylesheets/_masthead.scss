@@ -1,24 +1,23 @@
 // Styling for the masthead
 
 
-.column-profil {
+.card1 {
   // display: block;
-  padding-top:70px;
-  position: relative;
+  padding-top: 20px;
   display: flex;
-  align-items: center-left;
-  justify-content: center;
-
-
+  position: relative;
+  background-size: cover !important;
+  background-color: $theme-clear1;
+  background-position: center;
 }
 
 
-.column-text {
+.card-text {
   // display: block;
   box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.7);
   position: absolute;
-  height: 430px;
-  width: 300px;
+  height: 380px;
+  width: 250px;
   border-radius: 5px;
   left:60%;
   right: 30%;
@@ -32,15 +31,15 @@
   background: $theme-success;
 
   .name {
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 50px;
+    font-family:'Open Sans', sans-serif;
+    font-size: 40px;
     font-weight: 700;
 
-      text-transform: uppercase;
-    }
-    .skills {
-      font-size: 30px;
-      font-weight: 300;
-    }
+    // text-transform: uppercase;
   }
+  .skills {
+    font-size: 25px;
+    font-weight: 300;
+  }
+}
 

@@ -1,8 +1,6 @@
 //= require jquery
+//= require popper
 //= require bootstrap
-//= contact_me
-//= freelancer
-//= popper
 //= require_tree .
 
 

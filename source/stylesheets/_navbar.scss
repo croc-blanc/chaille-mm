@@ -7,32 +7,32 @@
   // text-transform: uppercase;
   border: none;
   // background: $theme-primary;
-  background: white;
+  background: $theme-clear1;
   a:focus {
     outline: none;
   }
   .navbar-brand {
     font-size: 1.1rem;
-    color: $theme-primary;
+    // color: $theme-primary;
     &.active,
     &:active,
     &:focus,
     &:hover {
-      color: white;
+      color: $theme-dark;
     }
   }
   .navbar-nav {
     letter-spacing: 1px;
     li.nav-item {
       a.nav-link {
-        color: $theme-primary;
+        color: $theme-lightdark;
         &:hover {
-          color: $theme-success;
+          color: $theme-dark;
           outline: none;
         }
         &:active,
         &:focus {
-          color: white;
+          color: $theme-lightdark;
         }
       }
     }
@@ -41,12 +41,12 @@
     font-size: 14px;
     padding: 11px;
     text-transform: uppercase;
-    color: $theme-primary;
-    border-color: white;
+    color: $theme-lightdark;
+    border-color: $theme-lightdark;
     &:focus,
     &:hover {
-      color: $theme-primary;
-      border-color: $theme-success;
+      color: $theme-dark;
+      border-color: $theme-dark;
       // background-color: $theme-success;
     }
   }
