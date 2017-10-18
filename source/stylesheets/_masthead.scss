@@ -1,5 +1,7 @@
 // Styling for the masthead
-
+.about {
+  display: none;
+}
 
 .card1 {
   // display: block;
@@ -40,6 +42,42 @@
   .skills {
     font-size: 25px;
     font-weight: 300;
+  }
+}
+
+@media(max-width:990px) {
+  .card-text {
+    height: 280px;
+    width: 150px;
+    .name {
+      font-family:'Open Sans', sans-serif;
+      font-size: 20px;
+      font-weight: 400;
+
+    // text-transform: uppercase;
+  }
+    .skills {
+      font-size: 15px;
+      font-weight: 200;
+    }
+  }
+}
+
+@media(max-width:768px) {
+  .card-text {
+    height: 300px;
+    width: 180px;
+    .name {
+      font-family:'Open Sans', sans-serif;
+      font-size: 20px;
+      font-weight: 400;
+
+    // text-transform: uppercase;
+  }
+    .skills {
+      font-size: 15px;
+      font-weight: 200;
+    }
   }
 }
 

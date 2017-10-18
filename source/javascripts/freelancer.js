@@ -35,6 +35,31 @@
     }
   });
 
+  // opening section
+  $( "#openworks" ).click(function () {
+  if ( $( "#works" ).is( ":hidden" ) ) {
+    $( "#works" ).slideDown( "slow" );
+  } else {
+    $( "#works" ).hide();
+  }
+});
+
+  $( "#openabout" ).click(function () {
+  if ( $( "#about" ).is( ":hidden" ) ) {
+    $( "#about" ).slideDown( "slow" );
+  } else {
+    $( "#about" ).hide();
+  }
+});
+
+  $( "#opencontact" ).click(function () {
+  if ( $( "#contact" ).is( ":hidden" ) ) {
+    $( "#contact" ).slideDown( "slow" );
+  } else {
+    $( "#contact" ).hide();
+  }
+});
+
   // Floating label headings for the contact form
   $(function() {
     $("body").on("input propertychange", ".floating-label-form-group", function(e) {

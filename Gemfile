@@ -11,4 +11,5 @@ gem 'font-awesome-middleman'
 gem 'jquery-middleman'
 gem 'bootstrap', '~> 4.0.0.alpha6'
 gem 'popper_js', '~> 1.11.1'
+gem 'font-awesome-middleman'
 
